@@ -1,3 +1,13 @@
 type Query {
     hello: String
+    getCharacters: [ Character ]
 }
+
+# custom types
+# API de Legend of zelda
+type Character {
+    id: ID
+    name: String
+    race: String
+}
+

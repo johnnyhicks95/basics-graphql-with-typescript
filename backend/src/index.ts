@@ -18,6 +18,8 @@ server.applyMiddleware({
 })
 
 app.listen( 5000, () => {
+    console.log(`Server graphql up! Running on:`);
+    
     console.log('http://localhost:5000');
     
 })
